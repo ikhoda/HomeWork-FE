@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanakin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./fontawesome/css/all.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <aside class="sidebar-container">
+        <img src="./images/sidebar/sanakin_logo.svg" alt="sanakin logo" />
+        <nav class="navigation-container">
+          <ul>
+            <li><i class="fa-solid fa-house"></i><span>Dashboard</span></li>
+            <li><i class="fa-regular fa-file-lines"></i><span>Product</span></li>
+            <li><i class="fa-regular fa-clipboard"></i><span>Orders</span></li>
+            <li><i class="fa-solid fa-user-group"></i><span>Customers</span></li>
+            <li><i class="fa-regular fa-comments"></i><span>CusChat</span></li>
+          </ul>
+        </nav>
+        <div class="profile-container">
+          <p>Profile</p>
+          <div>
+            <img src="./images/sidebar/default_avatar.svg" alt="avatar profile" />
+            <div>
+              <p>Amishka</p>
+              <p>Shopper</p>
+            </div>
+          </div>
+          <button>
+            <img src="./images/sidebar/log-out-button.svg" alt="log out button" />Log out
+          </button>
+        </div>
+      </aside>
+      <header>
+        <p>Dashboard</p>
+        <p>12th January of 2023, 12:00 pm</p>
+      </header>
+      <div class="product-analytics child1">
+        <p>240</p>
+        <p>Total Products</p>
+        <img src="./images/dashboard/total-products.svg" alt="total products image" />
+      </div>
+      <div class="product-analytics child2">
+        <p>1200</p>
+        <p>Total Sales</p>
+        <img src="./images/dashboard/sales.svg" alt="total sales image" />
+      </div>
+      <div class="product-analytics child3">
+        <p>240</p>
+        <p>pending orders</p>
+        <img src="./images/dashboard/pending.svg" alt="pending orders image" />
+      </div>
+      <div class="product-analytics child4">
+        <p>240</p>
+        <p>On Proccess to Delivery</p>
+        <img src="./images/dashboard/delivery-truck.svg" alt="on proccess to dilivery" />
+      </div>
+
+      <div class="product-actions child1">
+        <h3>Add new Product</h3>
+        <p>introduce your new product to the market.</p>
+        <img src="./images/dashboard/add-product.svg" alt="add product button" />
+      </div>
+      <div class="product-actions child2">
+        <h3>Increase Items</h3>
+        <p>increase the product ha.</p>
+        <img src="./images/dashboard/increase-items.svg" alt="increase items button" />
+      </div>
+      <div class="stock-summery">
+        <h3>Stock Summery</h3>
+
+        <div class="statistic-container">
+          <div class="container-agenda">
+            <div>
+              <i id="added" class="fa-solid fa-square"></i>
+              <span>Added Stock</span>
+            </div>
+
+            <div>
+              <i id="available" class="fa-solid fa-square"></i>
+              <span>Available Stock</span>
+            </div>
+          </div>
+
+          <div class="product-statistic-image-container">
+            <span>100%</span>
+            <img class="statistics-image" src="./images/dashboard/statistics.svg" alt="" />
+          </div>
+        </div>
+
+        <p>Low stock Products</p>
+        <div>
+          <div class="remaining-product-container">
+            <p>Product name</p>
+            <p>Remaining 10%</p>
+          </div>
+          <div class="remaining-product-container">
+            <p>Product name</p>
+            <p>Remaining 10%</p>
+          </div>
+          <div class="remaining-product-container">
+            <p>Product name</p>
+            <p>Remaining 10%</p>
+          </div>
+          <div class="remaining-product-container">
+            <p>Product name</p>
+            <p>Remaining 10%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
